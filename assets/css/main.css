@@ -3337,7 +3337,7 @@ input, select, textarea {
         float: left;
 		height: 5%;
 		min-width: 100%;
-		overflow-y: ;
+		overflow-y: hidden;
 		padding-top: 1.5em;
         padding-right: 10%;
         text-align: center;
@@ -3392,7 +3392,7 @@ input, select, textarea {
 					letter-spacing: 0.4em;
 					outline: 0;
                     float: left;
-                    padding:7px 2px;
+                    padding: 0 5px 0 5px;
 					text-decoration: none;
 					text-transform: uppercase;
 				}
@@ -3460,7 +3460,6 @@ input, select, textarea {
 
 /* Header */
 
-/*
 	#header {
 		-moz-transition: background-color 0.2s ease;
 		-webkit-transition: background-color 0.2s ease;
@@ -3475,9 +3474,7 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10000;
 	}
-*/
 
-/*
 		#header h1 {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
@@ -3505,7 +3502,6 @@ input, select, textarea {
 					}
 
 				}
-*/
 
 		#header nav {
 			height: inherit;
@@ -3841,6 +3837,7 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
+        margin-top: ;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
